@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Bootstrap Modern UI</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">MyBootstrapSite</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contact Section -->
+<div class="container py-5">
+  <h2 class="text-center fw-bold mb-4">Contact Us</h2>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      
+      <div class="card p-4 p-md-5 shadow rounded-4">
+        <form>
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Full Name</label>
+            <input type="text" class="form-control" placeholder="Your name" required />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Email address</label>
+            <input type="email" class="form-control" placeholder="your@example.com" required />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label fw-semibold">Your Message</label>
+            <textarea class="form-control" rows="4" placeholder="Type something..." required></textarea>
+          </div>
+
+          <button class="btn btn-primary w-100">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
