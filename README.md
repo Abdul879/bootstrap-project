@@ -1,5 +1,4 @@
 ## 📌 Project Overview
-This project is created as part of the **KeshavSoft Internship Task**.  
 The goal was to explore the official Bootstrap 5 documentation, understand its components,  
 and build **three fully responsive pages** by remixing Bootstrap UI elements.
 
@@ -100,3 +99,4 @@ Everything adjusted correctly.
 ---
 
 ## 📁 Project Structure
+
